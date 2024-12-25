@@ -1,0 +1,12 @@
+<div class="main">
+    <form action="" class="from" method="POST">
+        {% csrf_token %}
+        <label for="" class="name">Name:</label>
+        <input type="text" placeholder="Enter Task" name="name" value="{{ task.tname }}">
+        <label for="" class="name">Description:</label>
+        <input type="text" placeholder="Desc" name="desc" value="{{ task.tdesc }}">
+
+        <input type="Submit" class="name">
+    </form>
+
+</div>
